@@ -1,0 +1,166 @@
+{% load static %}
+{% load i18n %}
+{% if msg %}
+<script>
+    alert('{{msg}}')
+</script>
+{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+<!--BOOTSTRAP CSS******************************-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+        <!--forgive me-->
+        <link rel="stylesheet" href="{%static '/css/docRegistration.css' %}">
+    <link rel="icon" href="{%static '/img/favicon.ico' %}">
+<!--***CUSTOM CSS***********************************-->
+    <link rel="stylesheet" href="{% static '/css/registration.css' %}">
+
+<!--***FAVICON************************************-->
+    <link rel="icon" href="{% static '/img/favicon.ico' %}" >
+
+    <!--***font awesome****************************** -->
+    <link rel="stylesheet" href="{% static '/css/all.css' %}">
+<!--****END OF HEAD**********************************************************************************-->
+</head>
+
+<body>
+    <!--BODY-->
+    <!--NAVIGATION BAR-->
+
+    <body>
+        <!--BODY-->
+        <!--NAVIGATION BAR-->
+        <div class="navbar">
+          <div class="containerNav">
+                    <a href="http://localhost:8000/ ">Home</a>
+                          <div class="dropdown">
+                              <button class="dropbtn">District
+                                   <i class="fa fa-caret-down"></i>
+                              </button>
+                           <div class="dropdown-content">
+                                 <a href="staff/sign">Login</a>
+                                 <a href="staff/signup">Register</a>
+                             </div>
+                            </div>
+      
+                          <div class="dropdown">
+                              <button class="dropbtn">Diseases
+                                <i  class="fa fa-caret-down"></i>
+                              </button>
+                           <div class="dropdown-content dropdown-content-p">
+                                <a href="patient/sign">Login</a>
+                           </div>
+                          </div>
+                          <div class="dropdown">
+                            <button class="dropbtn">Schemes
+                              <i  class="fa fa-caret-down"></i>
+                            </button>
+                         <div class="dropdown-content dropdown-content-p">
+                              <a href="http://health.bih.nic.in/Schemes/HD-BestPractices-Kala-azar.pdf">Mukhyamantri Kalaazar Rahat Yojana.</a>
+                              <a href="http://health.bih.nic.in/Schemes/HD-BestPractices-MCSK.pdf"> Mukhyamantri Chikitsa Sahayata Yojana</a>
+                              <a href="http://health.bih.nic.in/Schemes/Schemes-MCPS.pdf"> Janni Avan Bal Surcha Yojana</a>
+                              <a href="http://health.bih.nic.in/Schemes/Schemes-FWS.pdf"> Parivar Kalyan Karyakram Yojana</a>
+                              <a href="http://health.bih.nic.in/Schemes/Scheme-BPP.pdf">Adhyapan Niyantran Yojana </a>
+                              <a href="http://health.bih.nic.in/Schemes/Schemes-LEP.pdf">Rashtriya Kust Unmulan Karyakram</a>
+      
+                            </div>
+                        </div>
+                      
+                        
+          </div>
+          <a href="http://localhost:8000/review/sign">{% trans "Login" %}</a>
+        </div>
+    <!--NAVIGATION BAR ENDS-->
+    <!--FORM STARTS-->
+    <div class="containerBox">
+        <div class=" row ">
+            <form action=" postsignup" method="post"
+            class="main-form needs-validation p-4 rounded color shadow box" id="user-form" novalidate>
+            {% csrf_token %}
+            <div class="containerHeading">
+                <h2>{% trans "DOCTOR REGISTRATION" %}</h2>
+            </div>
+            <div class="containerName">
+                <div class="form-group">
+                    <!-- NAME-->
+                    <label for="name" class="lead font-weight-normal">{% trans "Name" %}</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" class="form-control">
+                    <!--<div class="invalid-feedback">Looks good!</div>-->
+                </div>
+            <!--EMAIL-->
+
+                <div class="form-group">
+                    <label for="email" class="lead font-weight-normal">{% trans "Username" %}</label>
+                    <input type="email" name="email" id="username" class="form-control" placeholder="example@email.com" required>
+                    <div class="invalid-feedback">{% trans " Please enter a valid username." %}</div>
+                </div>
+            </div>
+
+            <div class="containerPass">
+                <div class="form-group ">
+                    <label for="password" class="lead font-weight-normal">{% trans "Password" %}</label>
+                    <input type="password" name="password" id="username" class="form-control" placeholder="• • • • • • • •" required>
+                    <div class="invalid-feedback">{% trans " Please enter a valid password." %}</div>
+                </div>
+
+                <div class="form-group ">
+                    <label for="password" class="lead font-weight-normal">{% trans "Confirm Password" %}</label>
+                    <input type="password" name="password1" id="username" class="form-control" placeholder="• • • • • • • •" required>
+                    <div class="invalid-feedback">{% trans " Please enter a valid password." %}</div>
+                </div>
+
+             </div>
+
+            <!--GENDER-->
+
+            <div class="containerGM">
+                <div class="form-group">
+                    <!-- NAME-->
+                    <label for="hname" class="lead font-weight-normal">{% trans "Hospital Name" %}</label>
+                    <input type="text" name="hospital_name" id="hname" placeholder="Hospital Name" class="form-control">
+                    <!--<div class="invalid-feedback">Looks good!</div>-->
+                </div>
+                    <!--MOBILE-NUMBER-->
+                    <div class="form-group ">
+                        <label for="empno"><label class="lead font-weight-normal">{% trans "Employee Number" %}</label>
+                        <input type="number" name="empno" id="empno" class="form-control" placeholder="Employee number"
+                            required>
+                    </div>
+             </div>
+
+            <br>
+            <!--*************Major Details END***************************-->
+            <div class="containerRules">
+                <div class="form-check">
+                    <input type="checkbox" id="accept-terms" class="form-check-input">
+                    <label for="accept-terms" class="form-check-label">{% trans "Accept Terms" %} &amp;
+                        {% trans "Conditions" %}</label>
+                </div>
+            </div>
+            <br>
+            <!--SUBMIT BUTTON-->
+            <div class="d-flex justify-content-center col-sm-12 "> <button type="submit"
+                    class="btn border-dark mr-3 px-4 btn-primary btn-lg " id="submit-btn">
+                    {% trans "Submit" %}
+                </button>
+            </div>
+            </form>
+        </div>
+        </div>
+        </div>
+        <!--END OF ROW-->
+    </div>
+    <!--END OF CONTAINER-->
+    <!--FOOTER-HERE-->
+    
+</body>
+
+</html>

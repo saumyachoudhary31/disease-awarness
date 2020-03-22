@@ -1,0 +1,110 @@
+{% load static %}
+{% load i18n %}
+{% if msg %}
+<script>
+    alert('{{msg}}')
+</script>
+{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doctor-Login-Sepsis</title>
+
+    <!--BOOTSTRAP CSS**********************************************-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+<!--CUSTOM CSS**********************************************-->
+    <link rel="stylesheet" href="{% static '/css/login.css' %}">
+
+<!--FAVICON**********************************************-->
+    <link rel="icon" href="{% static '/img/favicon.ico ' %}" >
+
+    <!-- font awesome********************************************** -->
+  <link rel="stylesheet" href="{% static '/css/all.css' %}">
+  <!--END OF HEAD**************************************************************************************-->
+</head>
+
+<body>
+    <!--BODY-->
+    <!--NAVIGATION BAR-->
+    <div class="navbar">
+      <div class="containerNav">
+                <a href="http://localhost:8000/ ">Home</a>
+                      <div class="dropdown">
+                          <button class="dropbtn">District
+                               <i class="fa fa-caret-down"></i>
+                          </button>
+                       <div class="dropdown-content">
+                             <a href="staff/sign">Login</a>
+                             <a href="staff/signup">Register</a>
+                         </div>
+                        </div>
+  
+                      <div class="dropdown">
+                          <button class="dropbtn">Diseases
+                            <i  class="fa fa-caret-down"></i>
+                          </button>
+                       <div class="dropdown-content dropdown-content-p">
+                            <a href="patient/sign">Login</a>
+                       </div>
+                      </div>
+                      <div class="dropdown">
+                        <button class="dropbtn">Schemes
+                          <i  class="fa fa-caret-down"></i>
+                        </button>
+                     <div class="dropdown-content dropdown-content-p">
+                          <a href="http://health.bih.nic.in/Schemes/HD-BestPractices-Kala-azar.pdf">Mukhyamantri Kalaazar Rahat Yojana.</a>
+                          <a href="http://health.bih.nic.in/Schemes/HD-BestPractices-MCSK.pdf"> Mukhyamantri Chikitsa Sahayata Yojana</a>
+                          <a href="http://health.bih.nic.in/Schemes/Schemes-MCPS.pdf"> Janni Avan Bal Surcha Yojana</a>
+                          <a href="http://health.bih.nic.in/Schemes/Schemes-FWS.pdf"> Parivar Kalyan Karyakram Yojana</a>
+                          <a href="http://health.bih.nic.in/Schemes/Scheme-BPP.pdf">Adhyapan Niyantran Yojana </a>
+                          <a href="http://health.bih.nic.in/Schemes/Schemes-LEP.pdf">Rashtriya Kust Unmulan Karyakram</a>
+  
+                        </div>
+                    </div>
+                  
+                    
+      </div>
+      <a href="http://localhost:8000/review/signup">Sign Up</a>
+    </div>
+      
+<!--~~~~~~~~~~~NAVIGATION BAR ENDS~~~~~~~~~~-->
+<!--LOGIN FORM-->
+    <br>
+    <div class="containerLogin">
+      <div class="container login-container trans containerBox" id="bg" >
+          <div class="row " >
+              <div class="cardBack">
+              <div class=""  id="user-form">
+                  
+                  <h3 class="display3">{% trans "Doctor Login" %}</h3>
+                  <form action="postsign" method="post">
+                      {% csrf_token %}
+                      <div class="form-group">
+                          <input type="email" class="form-control" placeholder="Your Email" value="" name="email" />
+                      </div>
+                      <div class="form-group">
+                          <input type="password" class="form-control" placeholder="Your Password" value="" name="password" />
+                      </div>
+
+
+                      <div class="formgroupbuttons">
+                          <div class="loginButton"><input type="submit" class="btnSubmit btn btn-primary buttonLogin" value="Login" /></div><br><br><br>
+                      </div>
+                  </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+<!--~~~~~~~~~~~~~~~FOOTER-HERE~~~~~~~~~~~~-->
+
+</body>
+
+</html>

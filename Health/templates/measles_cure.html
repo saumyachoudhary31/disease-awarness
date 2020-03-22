@@ -1,0 +1,93 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% trans "Cure" %}</title>
+<!--BOOTSTRAP CSS******************************-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+        <!--forgive me-->
+        <link rel="stylesheet" href="{%static '/css/docRegistration.css' %}">
+    <link rel="icon" href="{%static '/img/favicon.ico' %}">
+<!--***CUSTOM CSS***********************************-->
+    <link rel="stylesheet" href="{% static '/css/registration.css' %}">
+
+<!--***FAVICON************************************-->
+    <link rel="icon" href="{% static '/img/favicon.ico' %}" >
+
+    <!--***font awesome****************************** -->
+    <link rel="stylesheet" href="{% static '/css/all.css' %}">
+<!--****END OF HEAD**********************************************************************************-->
+<style>
+    img{
+   position : absolute;
+    left :10px;
+    top : 105px;
+    bottom : 1040 px;
+    }
+
+</style>
+</head>
+
+<body>
+    <!--BODY-->
+    
+    <div class="navbar">
+        <div class="containerNav">
+                  <a href="/">{% trans "Home" %}</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">{% trans "District" %}
+                                 <i class="fa fa-caret-down"></i>
+                            </button>
+                         <div class="dropdown-content">
+                               <a href="staff/sign">{% trans "Login" %}</a>
+                               <a href="staff/signup">{% trans "Register" %}</a>
+                           </div>
+                          </div>
+    
+                        <div class="dropdown">
+                            <button class="dropbtn">{% trans "Diseases" %}
+                              <i  class="fa fa-caret-down"></i>
+                            </button>
+                         <div class="dropdown-content dropdown-content-p">
+                              <a href="patient/sign">{% trans "Login" %}</a>
+                         </div>
+                        </div>
+        </div>
+        </div> 
+    <!--NAVIGATION BAR-->
+
+    <!--NAVIGATION BAR ENDS-->
+    <div class="headerSepsis ">
+       
+       <h2 class="containerPara">&nbsp;{% trans "Cure Of Measles" %}</h2>
+      </div>
+      <div class="containerPara">
+          
+          <p>
+              <ul>
+                  <li>{% trans "Acetaminophen (Tylenol) or Ibuprofen (Advil) to reduce fever" %}
+                </li>
+                  <li>{% trans "Rest to help boost your immune system" %}
+                </li>
+                  <li>{% trans "Plenty of fluids" %}
+                </li>
+                <li>{% trans "A humidifier to ease a cough and sore throat" %}</li>
+                
+              </ul>
+        </p>
+      </div>
+      
+      <img width="420" height="345" src=static/img/measles_cure.jpg ></img>
+          
+
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Health Awarness</title>
+
+  <!--BOOTSTRAP CSS**********************************************-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+
+  <!--CUSTOM CSS**********************************************-->
+  <link rel="stylesheet" href="{% static '/css/index.css' %}" />
+
+  <!--FAVICON**********************************************-->
+  <link rel="icon" href="{% static '/img/favicon.ico' %}" />
+
+  <!-- font awesome********************************************** -->
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="{% static '/css/all.css' %}" />
+  <!--END OF HEAD**************************************************************************************-->
+</head>
+
+<body>
+  <!--BODY-->
+  
+
+  <div class="navbar">
+    <div class="containerNav">
+      <div>
+        <form action="{% url 'set_language' %}" method="post">
+          {% csrf_token %}
+          <input name="next" type="hidden" value="{{ redirect_to }}">
+          <select name="language">
+             {% get_current_language as LANGUAGE_CODE %} 
+             {% get_available_languages as LANGUAGES %} 
+             {% get_language_info_list for LANGUAGES as languages %}
+              {% for language in languages %}
+                  <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected {% endif %}>
+                     {{ language.name_local }} 
+                  </option>
+              {% endfor %}
+          </select>
+          <input type="submit" value="go"/>
+      </form>
+    </div>
+              <a href="/">{% trans "Home" %}</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">{% trans "District" %}
+                             <i class="fa fa-caret-down"></i>
+                        </button>
+                     <div class="dropdown-content">
+                        <a href="http://127.0.0.1:8000/chickenpox">{% trans "GopalGanj " %}</a> 
+                        <a href="http://127.0.0.1:8000/measles_prev">{% trans "Buxar " %}</a> 
+                        <a href="http://127.0.0.1:8000/chickenpox">{% trans "Bhojpur " %}</a>
+                        <a href="http://127.0.0.1:8000/measles_prev">{% trans "Samastipur  " %}</a> 
+                        <a href="http://127.0.0.1:8000/measles_prev">{% trans "Saharsa " %}</a>
+                        <a href="http://127.0.0.1:8000/chickenpox ">{% trans "Madhubani " %}</a>
+                        <a href="http://127.0.0.1:8000/measles_prev ">{% trans "Rohtas " %}</a>
+                        <a href="http://127.0.0.1:8000/chickenpox">{% trans "Muzaffarpur " %}</a>
+                        <a href="http://127.0.0.1:8000/measles_prev">{% trans "Saharsa " %}</a>
+                        <a href="http://127.0.0.1:8000/chickenpox">{% trans "Siwan " %}</a> 
+                        <a href="http://127.0.0.1:8000/chickenpox">{% trans "Jahnabad " %}</a>
+                        <a href="http://127.0.0.1:8000/measles_prev">{% trans "Patna " %}</a>
+                        <a href="http://127.0.0.1:8000/measles_prev">{% trans "Sheikhpura " %}</a>
+                        <a href="http://127.0.0.1:8000/foodpos">{% trans "Nawda " %}</a>
+                        <a href="http://127.0.0.1:8000/foodpos">{% trans "Pashchim Champarn " %}</a>
+                        <a href="http://127.0.0.1:8000/foodpos">{% trans "Munger " %}</a>
+                        <a href="http://127.0.0.1:8000/foodpos">{% trans "Bhagalpur " %}</a>
+                        <a href="http://127.0.0.1:8000/foodpos">{% trans "Bhabua " %}</a>
+                       </div>
+                      </div>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">{% trans "Diseases" %}
+                          <i  class="fa fa-caret-down"></i>
+                        </button>
+                     <div class="dropdown-content dropdown-content-p">
+                        <a href= "http://127.0.0.1:8000/measles_prev">{% trans "Measles " %}</a>
+                        <a href= "http://127.0.0.1:8000/chickenpox">{% trans "Chicken Pox " %}</a>
+                        <a href= "http://127.0.0.1:8000/foodpos">{% trans "Food Posioning " %}</a>
+                     </div>
+                    </div>
+                    <div class="dropdown">
+                      <button class="dropbtn">{% trans "Schemes" %}
+                        <i  class="fa fa-caret-down"></i>
+                      </button>
+                   <div class="dropdown-content dropdown-content-p">
+                        <a href="http://health.bih.nic.in/Schemes/HD-BestPractices-Kala-azar.pdf">{% trans "Mukhyamantri Kalaazar Rahat Yojana. " %}</a>
+                        <a href="http://health.bih.nic.in/Schemes/HD-BestPractices-MCSK.pdf">{% trans " Mukhyamantri Chikitsa Sahayata Yojana " %}</a>
+                        <a href="http://health.bih.nic.in/Schemes/Schemes-MCPS.pdf">{% trans " Janni Avan Bal Surcha Yojana " %}</a>
+                        <a href="http://health.bih.nic.in/Schemes/Schemes-FWS.pdf">{% trans " Parivar Kalyan Karyakram Yojana " %}</a>
+                        <a href="http://health.bih.nic.in/Schemes/Scheme-BPP.pdf">{% trans "Adhyapan Niyantran Yojana  " %}</a>
+                        <a href="http://health.bih.nic.in/Schemes/Schemes-LEP.pdf">{% trans "Rashtriya Kust Unmulan Karyakram " %}</a>
+
+                      </div>
+                  </div>
+                  <a href="http://localhost:8000/review/">{% trans "Add Review  " %}</a>
+                  <a href="http://localhost:8000/map2">{% trans "Survey of 2018 " %}</a>
+    </div> 
+  <!--~~~~~~~~~~~NAVIGATION BAR ENDS~~~~~~~~~~-->
+  <!--BANNER , BRUCE BANNER-->
+  
+  <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1Vh3G28f2n_hnLLBgWk1uxM2Tyqb55XqC" width="1565" height="635"></iframe>
+
+  
+  <!--END OF BANNER-->
+
+
+</body>
+
+</html>

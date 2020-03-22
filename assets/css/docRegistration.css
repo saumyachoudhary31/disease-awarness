@@ -1,0 +1,156 @@
+
+body {
+  background-image: linear-gradient(to right,white 0%,pink 100%),url(/static/img/signupbg.svg);
+  
+  background-repeat: repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+
+
+/*#submit-btn{
+    background-color: rgb(26, 171, 219);
+}*/
+
+.containerBox{
+  display: flex;
+  justify-content: left;
+}
+
+.containerHeading h2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.box{
+    border-radius: 10px;
+    width:700px;
+    margin-left: 150px;
+    margin-top:-10px;
+
+}
+
+.containerName, .containerPass, .containerGM, .containerRules{
+  display: flex;    
+  justify-content: space-evenly;  
+}
+
+.footer{
+
+    width:100%;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+  
+  }
+
+
+  .containerNav{
+    display: flex;
+    
+    top: 0;
+    right : 0;
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    
+  }
+  .navbar {
+    background-color: white;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    
+    top:0px;
+    
+  }
+  
+  .dropdown {
+    float:right;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:  rgb(68, 159, 233);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    display:block;
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display:block;
+  }
+  .headerSepsis h2{
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    font-weight: bold;
+    color: black; 
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+.containerPara{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  width: 30%;
+  text-align: center;
+}
+.containerButton{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 10%;
+}

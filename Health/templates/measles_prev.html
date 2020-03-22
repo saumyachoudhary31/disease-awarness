@@ -1,0 +1,128 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sepsis Registration</title>
+<!--BOOTSTRAP CSS******************************-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+        <!--forgive me-->
+        <link rel="stylesheet" href="{%static '/css/docRegistration.css' %}">
+    <link rel="icon" href="{%static '/img/favicon.ico' %}">
+<!--***CUSTOM CSS***********************************-->
+    <link rel="stylesheet" href="{% static '/css/registration.css' %}">
+
+<!--***FAVICON************************************-->
+    <link rel="icon" href="{% static '/img/favicon.ico' %}" >
+
+    <!--***font awesome****************************** -->
+    <link rel="stylesheet" href="{% static '/css/all.css' %}">
+<!--****END OF HEAD**********************************************************************************-->
+<style>
+    img{
+   position : absolute;
+    left :10px;
+    top : 105px;
+    bottom : 1040 px;
+    }
+
+</style>
+</head>
+
+<body>
+    <!--BODY-->
+    
+    <div class="navbar">
+        <div class="containerNav">
+                  <a href="/">{% trans "Home" %}</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">{% trans "District" %}
+                                 <i class="fa fa-caret-down"></i>
+                            </button>
+                         <div class="dropdown-content">
+                            <a href="http://127.0.0.1:8000/chickenpox">{% trans "GopalGanj " %}</a> 
+                            <a href="http://127.0.0.1:8000/measles_prev">{% trans "Buxar " %}</a> 
+                            <a href="http://127.0.0.1:8000/chickenpox">{% trans "Bhojpur " %}</a>
+                            <a href="http://127.0.0.1:8000/measles_prev">{% trans "Samastipur  " %}</a> 
+                            <a href="http://127.0.0.1:8000/measles_prev">{% trans "Saharsa " %}</a>
+                            <a href="http://127.0.0.1:8000/chickenpox ">{% trans "Madhubani " %}</a>
+                            <a href="http://127.0.0.1:8000/measles_prev ">{% trans "Rohtas " %}</a>
+                            <a href="http://127.0.0.1:8000/chickenpox">{% trans "Muzaffarpur " %}</a>
+                            <a href="http://127.0.0.1:8000/measles_prev">{% trans "Saharsa " %}</a>
+                            <a href="http://127.0.0.1:8000/chickenpox">{% trans "Siwan " %}</a> 
+                            <a href="http://127.0.0.1:8000/chickenpox">{% trans "Jahnabad " %}</a>
+                            <a href="http://127.0.0.1:8000/measles_prev">{% trans "Patna " %}</a>
+                            <a href="http://127.0.0.1:8000/measles_prev">{% trans "Sheikhpura " %}</a>
+                            <a href="http://127.0.0.1:8000/foodpos">{% trans "Nawda " %}</a>
+                            <a href="http://127.0.0.1:8000/foodpos">{% trans "Pashchim Champarn " %}</a>
+                            <a href="http://127.0.0.1:8000/foodpos">{% trans "Munger " %}</a>
+                            <a href="http://127.0.0.1:8000/foodpos">{% trans "Bhagalpur " %}</a>
+                            <a href="http://127.0.0.1:8000/foodpos">{% trans "Bhabua " %}</a>
+                           </div>
+                          </div>
+    
+                        <div class="dropdown">
+                            <button class="dropbtn">{% trans "Diseases" %}
+                              <i  class="fa fa-caret-down"></i>
+                            </button>
+                         <div class="dropdown-content dropdown-content-p">
+                            <a href= "http://127.0.0.1:8000/measles_prev">{% trans "Measles " %}</a>
+                            <a href= "http://127.0.0.1:8000/chickenpox">{% trans "Chicken Pox " %}</a>
+                            <a href= "http://127.0.0.1:8000/foodpos">{% trans "Food Posioning " %}</a>
+                         </div>
+                        </div>
+                        <div class="dropdown">
+                          <button class="dropbtn">{% trans "Schemes" %}
+                            <i  class="fa fa-caret-down"></i>
+                          </button>
+                       <div class="dropdown-content dropdown-content-p">
+                          <a href="http://health.bih.nic.in/Schemes/HD-BestPractices-Kala-azar .pdf">{% trans "Mukhyamantri Kalaazar Rahat Yojana. " %}</a>
+                          <a href="http://health.bih.nic.in/Schemes/HD-BestPractices-MCSK .pdf">{% trans " Mukhyamantri Chikitsa Sahayata Yojana " %}</a>
+                          <a href="http://health.bih.nic.in/Schemes/Schemes-MCPS .pdf">{% trans " Janni Avan Bal Surcha Yojana " %}</a>
+                          <a href="http://health.bih.nic.in/Schemes/Schemes-FWS .pdf">{% trans " Parivar Kalyan Karyakram Yojana " %}</a>
+                          <a href="http://health.bih.nic.in/Schemes/Scheme-BPP .pdf">{% trans "Adhyapan Niyantran Yojana  " %}</a>
+                          <a href="http://health.bih.nic.in/Schemes/Schemes-LEP .pdf">{% trans "Rashtriya Kust Unmulan Karyakram " %}</a>
+      
+                          </div>
+                      </div>
+                      <a href="http://localhost:8000/review/">{% trans "Add Review  " %} </a>
+                      <a href="http://localhost:8000/map2">Survey of 2018</a>
+        </div> 
+    </div>
+          
+    <!--NAVIGATION BAR-->
+
+    <!--NAVIGATION BAR ENDS-->
+    <div class="headerSepsis ">
+       <h2> &nbsp;</h2> 
+       <h2 class="containerPara">&nbsp;{% trans "Prevention of Measles" %}</h2>
+      </div>
+      <div class="containerPara">
+        <p>
+            <ul>
+                <li>{% trans "Can be prevented by vaccination with the measles, mumps and rubella (MMR) vaccine." %}</li>
+                <li>{% trans "A dose of the MMR vaccine can also be given to anyone" %}
+                    {% trans "over 6 months of age if they're at" %} 
+                    {% trans "immediate risk of catching measles.0" %}
+                </li>
+                
+                <li>{% trans "HNIG should ideally be given within 6 days of exposure." %}
+              </li>
+            </ul>
+        </p>
+          
+      </div>
+      <img width="420" height="345" src=static/img/measles_cure.jpg ></img>
+
+      
+
+</body>
+
+</html>

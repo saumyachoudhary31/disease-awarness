@@ -1,0 +1,125 @@
+{% load static %}
+{% load i18n %}
+{% if msg %}
+
+{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Review</title>
+
+  <!--BOOTSTRAP CSS**********************************************-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+
+  <!--CUSTOM CSS**********************************************-->
+  <link rel="stylesheet" href="{% static '/css/index.css' %}" />
+
+  <!--FAVICON**********************************************-->
+  <link rel="icon" href="{% static '/img/favicon.ico' %}" />
+
+  <!-- font awesome********************************************** -->
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="{% static '/css/all.css' %}" />
+  <!--END OF HEAD**************************************************************************************-->
+</head>
+
+<body>
+  <!--BODY-->
+  <div class="navbar">
+    <div class="containerNav">
+              <a href="http://localhost:8000/ ">Home</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">District
+                             <i class="fa fa-caret-down"></i>
+                        </button>
+                     <div class="dropdown-content">
+                        <a href="http://127.0.0.1:8000/chickenpox">{% trans "GopalGanj " %}</a> 
+                        <a href="http://127.0.0.1:8000/measles_prev">{% trans "Buxar " %}</a> 
+                        <a href="http://127.0.0.1:8000/chickenpox">{% trans "Bhojpur " %}</a>
+                        <a href="http://127.0.0.1:8000/measles_prev">{% trans "Samastipur  " %}</a> 
+                        <a href="http://127.0.0.1:8000/measles_prev">{% trans "Saharsa " %}</a>
+                        <a href="http://127.0.0.1:8000/chickenpox ">{% trans "Madhubani " %}</a>
+                        <a href="http://127.0.0.1:8000/measles_prev ">{% trans "Rohtas " %}</a>
+                        <a href="http://127.0.0.1:8000/chickenpox">{% trans "Muzaffarpur " %}</a>
+                        <a href="http://127.0.0.1:8000/measles_prev">{% trans "Saharsa " %}</a>
+                        <a href="http://127.0.0.1:8000/chickenpox">{% trans "Siwan " %}</a> 
+                        <a href="http://127.0.0.1:8000/chickenpox">{% trans "Jahnabad " %}</a>
+                        <a href="http://127.0.0.1:8000/measles_prev">{% trans "Patna " %}</a>
+                        <a href="http://127.0.0.1:8000/measles_prev">{% trans "Sheikhpura " %}</a>
+                        <a href="http://127.0.0.1:8000/foodpos">{% trans "Nawda " %}</a>
+                        <a href="http://127.0.0.1:8000/foodpos">{% trans "Pashchim Champarn " %}</a>
+                        <a href="http://127.0.0.1:8000/foodpos">{% trans "Munger " %}</a>
+                        <a href="http://127.0.0.1:8000/foodpos">{% trans "Bhagalpur " %}</a>
+                        <a href="http://127.0.0.1:8000/foodpos">{% trans "Bhabua " %}</a>
+                       </div>
+                      </div>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Diseases
+                          <i  class="fa fa-caret-down"></i>
+                        </button>
+                     <div class="dropdown-content dropdown-content-p">
+                          <a href="http://127.0.0.1:8000/measles_prev">Measles</a>
+                          <a href="http://127.0.0.1:8000/chickenpox">Chicken Pox</a>
+                          <a href="http://127.0.0.1:8000/foodpos">Food Posioning</a>
+                     </div>
+                    </div>
+                    <div class="dropdown">
+                      <button class="dropbtn">Schemes
+                        <i  class="fa fa-caret-down"></i>
+                      </button>
+                   <div class="dropdown-content dropdown-content-p">
+                        <a href="http://health.bih.nic.in/Schemes/HD-BestPractices-Kala-azar.pdf">Mukhyamantri Kalaazar Rahat Yojana.</a>
+                        <a href="http://health.bih.nic.in/Schemes/HD-BestPractices-MCSK.pdf"> Mukhyamantri Chikitsa Sahayata Yojana</a>
+                        <a href="http://health.bih.nic.in/Schemes/Schemes-MCPS.pdf"> Janni Avan Bal Surcha Yojana</a>
+                        <a href="http://health.bih.nic.in/Schemes/Schemes-FWS.pdf"> Parivar Kalyan Karyakram Yojana</a>
+                        <a href="http://health.bih.nic.in/Schemes/Scheme-BPP.pdf">Adhyapan Niyantran Yojana </a>
+                        <a href="http://health.bih.nic.in/Schemes/Schemes-LEP.pdf">Rashtriya Kust Unmulan Karyakram</a>
+
+                      </div>
+                  </div>
+                
+                  
+    </div>
+  </div>
+  <!--~~~~~~~~~~~NAVIGATION BAR ENDS~~~~~~~~~~-->
+  <!--BANNER , BRUCE BANNER-->
+
+
+
+    <div class="headerSepsis ">
+      <h2>CHICKEN POX</h2>
+    </div>
+    <div class="containerPara">
+    <p>A highly contagious viral infection which causes an itchy,blister-like rash on the skin.Chickenpox is highly contagious to those who haven't had the disease or been vaccinated against it.The most characteristic symptom is an itchy,blister-like rash on the skin</p>
+    </div>
+    <div class="containerButton">
+        <div class="d-flex justify-content-center col-sm-12 "> <button type="submit"
+            class="btn border-dark mr-3 px-4 btn-primary btn-lg  buttonLogin" id="submit-btn" onclick="location.href='{% url 'signIn' %}'">
+            Login
+        </button>
+        </div>
+        <div class="d-flex justify-content-center col-sm-12"> <button type="submit"
+            class="btn border-dark mr-3 px-4 btn-primary btn-lg  buttonSignup" id="submit-btn" onclick="location.href='{% url 'signup' %}'">
+            Signup
+        </button>
+        </div>
+    </div>
+    
+  </section>
+  <!--END OF BANNER-->
+
+
+</body>
+
+</html>

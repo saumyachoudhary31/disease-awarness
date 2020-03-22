@@ -1,0 +1,558 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-24 04:24+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\Health\templates\chickenpox_prev.html:55 .\Health\templates\index.html:57
+#: .\Health\templates\index_2.html:41 .\Health\templates\measles_cure.html:44
+#: .\Health\templates\measles_prev.html:44
+msgid "Home"
+msgstr "होम पेज"
+
+#: .\Health\templates\chickenpox_prev.html:57 .\Health\templates\index.html:59
+#: .\Health\templates\index_2.html:43 .\Health\templates\measles_cure.html:46
+#: .\Health\templates\measles_prev.html:46 .\review\templates\review.html:69
+msgid "District"
+msgstr "जिला"
+
+#: .\Health\templates\chickenpox_prev.html:61
+#: .\Health\templates\foodpos_prev.html:50 .\Health\templates\index.html:63
+#: .\Health\templates\index_2.html:47 .\Health\templates\measles_prev.html:50
+msgid "GopalGanj "
+msgstr "गोपालगंज"
+
+#: .\Health\templates\chickenpox_prev.html:62
+#: .\Health\templates\foodpos_prev.html:51 .\Health\templates\index.html:64
+#: .\Health\templates\index_2.html:48 .\Health\templates\measles_prev.html:51
+msgid "Buxar "
+msgstr "बक्सर"
+
+#: .\Health\templates\chickenpox_prev.html:63
+#: .\Health\templates\foodpos_prev.html:52 .\Health\templates\index.html:65
+#: .\Health\templates\index_2.html:49 .\Health\templates\measles_prev.html:52
+msgid "Bhojpur "
+msgstr "भोजपुर"
+
+#: .\Health\templates\chickenpox_prev.html:64
+#: .\Health\templates\foodpos_prev.html:53 .\Health\templates\index.html:66
+#: .\Health\templates\index_2.html:50 .\Health\templates\measles_prev.html:53
+msgid "Samastipur  "
+msgstr "समस्तीपुर"
+
+#: .\Health\templates\chickenpox_prev.html:65
+#: .\Health\templates\chickenpox_prev.html:69
+#: .\Health\templates\foodpos_prev.html:54
+#: .\Health\templates\foodpos_prev.html:58 .\Health\templates\index.html:67
+#: .\Health\templates\index.html:71 .\Health\templates\index_2.html:51
+#: .\Health\templates\index_2.html:55 .\Health\templates\measles_prev.html:54
+#: .\Health\templates\measles_prev.html:58
+msgid "Saharsa "
+msgstr "सहरसा"
+
+#: .\Health\templates\chickenpox_prev.html:66
+#: .\Health\templates\foodpos_prev.html:55 .\Health\templates\index.html:68
+#: .\Health\templates\index_2.html:52 .\Health\templates\measles_prev.html:55
+msgid "Madhubani "
+msgstr "मधुबनी"
+
+#: .\Health\templates\chickenpox_prev.html:67
+#: .\Health\templates\foodpos_prev.html:56 .\Health\templates\index.html:69
+#: .\Health\templates\index_2.html:53 .\Health\templates\measles_prev.html:56
+msgid "Rohtas "
+msgstr "रोहतास"
+
+#: .\Health\templates\chickenpox_prev.html:68
+#: .\Health\templates\foodpos_prev.html:57 .\Health\templates\index.html:70
+#: .\Health\templates\index_2.html:54 .\Health\templates\measles_prev.html:57
+msgid "Muzaffarpur "
+msgstr "मुजफ्फरपुर"
+
+#: .\Health\templates\chickenpox_prev.html:70
+#: .\Health\templates\foodpos_prev.html:59 .\Health\templates\index.html:72
+#: .\Health\templates\index_2.html:56 .\Health\templates\measles_prev.html:59
+msgid "Siwan "
+msgstr "सिवान"
+
+#: .\Health\templates\chickenpox_prev.html:71
+#: .\Health\templates\foodpos_prev.html:60 .\Health\templates\index.html:73
+#: .\Health\templates\index_2.html:57 .\Health\templates\measles_prev.html:60
+msgid "Jahnabad "
+msgstr "जहानाबाद"
+
+#: .\Health\templates\chickenpox_prev.html:72
+#: .\Health\templates\foodpos_prev.html:61 .\Health\templates\index.html:74
+#: .\Health\templates\index_2.html:58 .\Health\templates\measles_prev.html:61
+msgid "Patna "
+msgstr "पटना"
+
+#: .\Health\templates\chickenpox_prev.html:73
+#: .\Health\templates\foodpos_prev.html:62 .\Health\templates\index.html:75
+#: .\Health\templates\index_2.html:59 .\Health\templates\measles_prev.html:62
+msgid "Sheikhpura "
+msgstr "शेखपुरा"
+
+#: .\Health\templates\chickenpox_prev.html:74
+#: .\Health\templates\foodpos_prev.html:63 .\Health\templates\index.html:76
+#: .\Health\templates\index_2.html:60 .\Health\templates\measles_prev.html:63
+msgid "Nawda "
+msgstr "नवादा"
+
+#: .\Health\templates\chickenpox_prev.html:75
+#: .\Health\templates\foodpos_prev.html:64 .\Health\templates\index.html:77
+#: .\Health\templates\index_2.html:61 .\Health\templates\measles_prev.html:64
+msgid "Pashchim Champarn "
+msgstr "पशिचम चंपारण"
+
+#: .\Health\templates\chickenpox_prev.html:76
+#: .\Health\templates\foodpos_prev.html:65 .\Health\templates\index.html:78
+#: .\Health\templates\index_2.html:62 .\Health\templates\measles_prev.html:65
+msgid "Munger "
+msgstr "मुंगेर"
+
+#: .\Health\templates\chickenpox_prev.html:77
+#: .\Health\templates\foodpos_prev.html:66 .\Health\templates\index.html:79
+#: .\Health\templates\index_2.html:63 .\Health\templates\measles_prev.html:66
+msgid "Bhagalpur "
+msgstr "भागलपुर"
+
+#: .\Health\templates\chickenpox_prev.html:78
+#: .\Health\templates\foodpos_prev.html:67 .\Health\templates\index.html:80
+#: .\Health\templates\index_2.html:64 .\Health\templates\measles_prev.html:67
+msgid "Bhabua "
+msgstr "भभुआ"
+
+#: .\Health\templates\chickenpox_prev.html:83
+#: .\Health\templates\foodpos_prev.html:72 .\Health\templates\index.html:85
+#: .\Health\templates\index_2.html:69 .\Health\templates\measles_cure.html:56
+#: .\Health\templates\measles_prev.html:72
+msgid "Diseases"
+msgstr "रोग"
+
+#: .\Health\templates\chickenpox_prev.html:87
+#: .\Health\templates\foodpos_prev.html:76 .\Health\templates\index.html:89
+#: .\Health\templates\index_2.html:73 .\Health\templates\measles_prev.html:76
+msgid "Measles "
+msgstr "खसरा"
+
+#: .\Health\templates\chickenpox_prev.html:88
+#: .\Health\templates\foodpos_prev.html:77 .\Health\templates\index.html:90
+#: .\Health\templates\index_2.html:74 .\Health\templates\measles_prev.html:77
+msgid "Chicken Pox "
+msgstr "चेचक"
+
+#: .\Health\templates\chickenpox_prev.html:89
+#: .\Health\templates\foodpos_prev.html:78 .\Health\templates\index.html:91
+#: .\Health\templates\index_2.html:75 .\Health\templates\measles_prev.html:78
+msgid "Food Posioning "
+msgstr "फूड पॉयजनिंग"
+
+#: .\Health\templates\chickenpox_prev.html:93
+#: .\Health\templates\foodpos_prev.html:82 .\Health\templates\index.html:95
+#: .\Health\templates\index_2.html:79 .\Health\templates\measles_prev.html:82
+msgid "Schemes"
+msgstr "योजनाएं"
+
+#: .\Health\templates\chickenpox_prev.html:97
+#: .\Health\templates\foodpos_prev.html:86 .\Health\templates\index.html:99
+#: .\Health\templates\index_2.html:83 .\Health\templates\measles_prev.html:86
+msgid "Mukhyamantri Kalaazar Rahat Yojana. "
+msgstr "मुख्मंत्री कालाजार राहत योजना"
+
+#: .\Health\templates\chickenpox_prev.html:98
+#: .\Health\templates\foodpos_prev.html:87 .\Health\templates\index.html:100
+#: .\Health\templates\index_2.html:84 .\Health\templates\measles_prev.html:87
+msgid " Mukhyamantri Chikitsa Sahayata Yojana "
+msgstr "मुख्मंत्री चिकत्स सहयाता योजना"
+
+#: .\Health\templates\chickenpox_prev.html:99
+#: .\Health\templates\foodpos_prev.html:88 .\Health\templates\index.html:101
+#: .\Health\templates\index_2.html:85 .\Health\templates\measles_prev.html:88
+msgid " Janni Avan Bal Surcha Yojana "
+msgstr "जननी अवान बाल सुरचा योजना"
+
+#: .\Health\templates\chickenpox_prev.html:100
+#: .\Health\templates\foodpos_prev.html:89 .\Health\templates\index.html:102
+#: .\Health\templates\index_2.html:86 .\Health\templates\measles_prev.html:89
+msgid " Parivar Kalyan Karyakram Yojana "
+msgstr "परिवार कल्याण कार्यक्रम"
+
+#: .\Health\templates\chickenpox_prev.html:101
+#: .\Health\templates\foodpos_prev.html:90 .\Health\templates\index.html:103
+#: .\Health\templates\index_2.html:87 .\Health\templates\measles_prev.html:90
+msgid "Adhyapan Niyantran Yojana  "
+msgstr "अंधापन नियंत्रण कार्यक्रम"
+
+#: .\Health\templates\chickenpox_prev.html:102
+#: .\Health\templates\foodpos_prev.html:91 .\Health\templates\index.html:104
+#: .\Health\templates\index_2.html:88 .\Health\templates\measles_prev.html:91
+msgid "Rashtriya Kust Unmulan Karyakram "
+msgstr "राष्ट्रीय कुष्ठ उन्मूलन कार्यक्रम"
+
+#: .\Health\templates\chickenpox_prev.html:106
+#: .\Health\templates\foodpos_prev.html:95 .\Health\templates\index.html:108
+#: .\Health\templates\index_2.html:92 .\Health\templates\measles_prev.html:95
+msgid "Add Review  "
+msgstr "समीक्षा जोड़ें"
+
+#: .\Health\templates\chickenpox_prev.html:107
+#: .\Health\templates\index.html:109
+#, fuzzy
+#| msgid "Survey of 2019 "
+msgid "Survey of 2018 "
+msgstr "2019 का सर्वेक्षण"
+
+#: .\Health\templates\chickenpox_prev.html:115
+#, fuzzy
+#| msgid "Chicken Pox "
+msgid "Prevention of Chicken Pox "
+msgstr "चेचक"
+
+#: .\Health\templates\chickenpox_prev.html:122
+msgid "People of every age group should be vaccinated"
+msgstr "हर आयु वर्ग के लोगों को टीका लगाया जाना चाहिए"
+
+#: .\Health\templates\chickenpox_prev.html:123
+msgid "Avoid handshake."
+msgstr "हैंडशेक से बचें।"
+
+#: .\Health\templates\chickenpox_prev.html:125
+msgid "Avoid contact with fluid from the blisters"
+msgstr "फफोले से तरल पदार्थ के संपर्क से बचें"
+
+#: .\Health\templates\chickenpox_prev.html:127
+msgid "Avoid person having cough nd cold"
+msgstr "खांसी और जुकाम वाले व्यक्ति से बचें"
+
+#: .\Health\templates\chickenpox_prev.html:128
+msgid "DO NOT loose your appetite"
+msgstr "अपनी भूख न खोएं"
+
+#: .\Health\templates\chickenpox_prev.html:130
+msgid "New Borns and Older Adults should remain under special care"
+msgstr "नए जन्मे और पुराने वयस्कों को विशेष देखभाल के तहत रहना चाहिए"
+
+#: .\Health\templates\foodpos_prev.html:105
+#, fuzzy
+#| msgid "Food Posioning "
+msgid "Prevention of Food Posioning"
+msgstr "फूड पॉयजनिंग"
+
+#: .\Health\templates\foodpos_prev.html:111
+msgid "Use separate chopping boards"
+msgstr "अलग-अलग चॉपिंग बोर्ड का इस्तेमाल करें"
+
+#: .\Health\templates\foodpos_prev.html:112
+msgid "Keep raw meat separate."
+msgstr "कच्चे मांस को अलग रखें।"
+
+#: .\Health\templates\foodpos_prev.html:114
+msgid "Cook food thoroughly."
+msgstr "खाना अच्छी तरह पकाएं।"
+
+#: .\Health\templates\foodpos_prev.html:116
+msgid "Keep your fridge below 5C."
+msgstr "अपना फ्रिज 5C से नीचे रखें।"
+
+#: .\Health\templates\foodpos_prev.html:117
+msgid ""
+"DO NOT use outdated foods, packaged food with a broken seal, or cans that "
+"are bulging or have a dent."
+msgstr "पुराने खाद्य पदार्थों का उपयोग न करें, टूटी हुई सील, या डिब्बे के साथ पैक भोजन "
+"उभड़ा हुआ है या एक दांत है।"
+
+#: .\Health\templates\foodpos_prev.html:119
+msgid ""
+"DO NOT drink water from streams or wells that are not treated. Only drink "
+"water that has been treated or chlorinated."
+msgstr "ऐसी धाराओं या कुओं का पानी न पिएं जिनका उपचार नहीं किया गया है, केवल पियो ”
+
+
+#: .\Health\templates\foodpos_prev.html:121
+msgid "DO NOT use foods that have an unusual odor or a spoiled taste"
+msgstr "उन खाद्य पदार्थों का उपयोग न करें जिनमें एक असामान्य गंध या खराब स्वाद है"
+
+#: .\Health\templates\index_2.html:11
+msgid "Health Awarness"
+msgstr "स्वास्थ्य जागरूकता"
+
+#: .\Health\templates\index_2.html:93
+msgid "Survey of 2019 "
+msgstr "2019 का सर्वेक्षण"
+
+#: .\Health\templates\measles_cure.html:11
+msgid "Cure"
+msgstr "इलाज"
+
+#: .\Health\templates\measles_cure.html:50
+#: .\Health\templates\measles_cure.html:60 .\review\templates\signup.html:79
+msgid "Login"
+msgstr "लॉग इन करें"
+
+#: .\Health\templates\measles_cure.html:51
+msgid "Register"
+msgstr "रजिस्टर करें"
+
+#: .\Health\templates\measles_cure.html:70
+#, fuzzy
+#| msgid "Measles "
+msgid "Cure Of Measles"
+msgstr "खसरा"
+
+#: .\Health\templates\measles_cure.html:76
+msgid "Acetaminophen (Tylenol) or Ibuprofen (Advil) to reduce fever"
+msgstr "बुखार को कम करने के लिए एसिटामिनोफेन (टाइलेनॉल) या इबुप्रोफेन (एडविल)"
+
+#: .\Health\templates\measles_cure.html:78
+msgid "Rest to help boost your immune system"
+msgstr "अपनी प्रतिरक्षा प्रणाली को बढ़ावा देने में मदद करने के लिए आराम करें"
+
+#: .\Health\templates\measles_cure.html:80
+msgid "Plenty of fluids"
+msgstr "बहुत सारे तरल प्रदत्त"
+
+#: .\Health\templates\measles_cure.html:82
+msgid "A humidifier to ease a cough and sore throat"
+msgstr "एक कफ और गले में खराश को कम करने के लिए एक ह्यूमिडिफायर"
+
+#: .\Health\templates\measles_prev.html:105
+#, fuzzy
+#| msgid "Measles "
+msgid "Prevention of Measles"
+msgstr "खसरा"
+
+#: .\Health\templates\measles_prev.html:111
+msgid ""
+"Can be prevented by vaccination with the measles, mumps and rubella (MMR) "
+"vaccine."
+msgstr "खसरा, कण्ठमाला और रूबेला (MMR) के साथ टीकाकरण द्वारा रोका जा सकता है "
+"टीका"
+
+#: .\Health\templates\measles_prev.html:112
+msgid ""
+"A dose of the MMR vaccine can also be given to anyone over 6 months of age "
+msgstr "MMR वैक्सीन एक खुराक 6 महीने से अधिक उम्र को है”
+
+
+#: .\Health\templates\measles_prev.html:114
+msgid ""
+"HNIG should ideally be given within 6 days of exposure."
+msgstr "HNIG को आदर्श रूप से प्रदर्शन के 6 दिनों के भीतर दिया जाना चाहिए।"
+
+#: .\review\templates\review.html:96
+msgid "No. of Case Registered"
+msgstr "पंजीकृत प्रकरण की संख्या"
+
+#: .\review\templates\review.html:98 .\review\templates\signup.html:103
+msgid " Please enter a valid username."
+msgstr "कृपया वैध उपभोगकर्ता नाम डाले।"
+
+#: .\review\templates\review.html:104
+msgid "Name of disease"
+msgstr "रोग का नाम"
+
+#: .\review\templates\review.html:106 .\review\templates\review.html:112
+#: .\review\templates\review.html:121 .\review\templates\review.html:127
+#: .\review\templates\signup.html:111 .\review\templates\signup.html:117
+msgid " Please enter a valid password."
+msgstr "कृपया एक वैध पासवर्ड दर्ज करें"
+
+#: .\review\templates\review.html:110
+msgid "Date of reporting"
+msgstr "रिपोर्टिंग की तारीख"
+
+#: .\review\templates\review.html:119
+msgid "No. of Postive Case"
+msgstr "सकारात्मक मामले की सं"
+
+#: .\review\templates\review.html:125
+msgid "No. of Negative Case"
+msgstr "नकारात्मक मामले की संख्या"
+
+#: .\review\templates\review.html:138 .\review\templates\signup.html:144
+msgid "Accept Terms"
+msgstr "शर्तों को स्वीकारें"
+
+#: .\review\templates\review.html:139 .\review\templates\signup.html:145
+msgid "Conditions"
+msgstr "शर्तेँ"
+
+#: .\review\templates\review.html:146 .\review\templates\signup.html:152
+msgid "Submit"
+msgstr "प्रस्तुत"
+
+#: .\review\templates\signIn.html:85
+msgid "Doctor Login"
+msgstr "डॉक्टर ने लॉगिन किया"
+
+#: .\review\templates\signup.html:89
+msgid "DOCTOR REGISTRATION"
+msgstr "डॉक्टर पंजीकरण"
+
+#: .\review\templates\signup.html:94
+msgid "Name"
+msgstr "नाम"
+
+#: .\review\templates\signup.html:101
+msgid "Username"
+msgstr "उपयोगकर्ता नाम"
+
+#: .\review\templates\signup.html:109
+msgid "Password"
+msgstr "कुंजिका"
+
+#: .\review\templates\signup.html:115
+msgid "Confirm Password"
+msgstr "पासवर्ड की पुष्टि कीजिये"
+
+#: .\review\templates\signup.html:127
+msgid "Hospital Name"
+msgstr "नाम"
+
+#: .\review\templates\signup.html:133
+msgid "Employee Number"
+msgstr "कर्मचारी संख्या"
+
+#, fuzzy
+#~| msgid "GopalGanj "
+#~ msgid "GopalGanj"
+#~ msgstr "गोपालगंज"
+
+#, fuzzy
+#~| msgid "Buxar "
+#~ msgid "Buxar"
+#~ msgstr "बक्सर"
+
+#, fuzzy
+#~| msgid "Measles "
+#~ msgid "Measles"
+#~ msgstr "खसरा"
+
+#, fuzzy
+#~| msgid "Chicken Pox "
+#~ msgid "Chicken Pox"
+#~ msgstr "चेचक"
+
+#, fuzzy
+#~| msgid "Add Review  "
+#~ msgid "Add Review"
+#~ msgstr "समीक्षा जोड़ें"
+
+#, fuzzy
+#~| msgid "Bhojpur "
+#~ msgid "Bhojpur"
+#~ msgstr "भोजपुर"
+
+#, fuzzy
+#~| msgid "Samastipur  "
+#~ msgid "Samastipur "
+#~ msgstr "समस्तीपुर"
+
+#, fuzzy
+#~| msgid "Saharsa "
+#~ msgid "Saharsa"
+#~ msgstr "सहरसा"
+
+#, fuzzy
+#~| msgid "Madhubani "
+#~ msgid "Madhubani"
+#~ msgstr "मधुबनी"
+
+#, fuzzy
+#~| msgid "Rohtas "
+#~ msgid "Rohtas"
+#~ msgstr "रोहतास"
+
+#, fuzzy
+#~| msgid "Muzaffarpur "
+#~ msgid "Muzaffarpur"
+#~ msgstr "मुजफ्फरपुर"
+
+#, fuzzy
+#~| msgid "Siwan "
+#~ msgid "Siwan"
+#~ msgstr "सिवान"
+
+#, fuzzy
+#~| msgid "Jahnabad "
+#~ msgid "Jahnabad"
+#~ msgstr "जहानाबाद"
+
+#, fuzzy
+#~| msgid "Patna "
+#~ msgid "Patna"
+#~ msgstr "पटना"
+
+#, fuzzy
+#~| msgid "Sheikhpura "
+#~ msgid "Sheikhpura"
+#~ msgstr "शेखपुरा"
+
+#, fuzzy
+#~| msgid "Nawda "
+#~ msgid "Nawda"
+#~ msgstr "नवादा"
+
+#, fuzzy
+#~| msgid "Pashchim Champarn "
+#~ msgid "Pashchim Champarn"
+#~ msgstr "पशिचम चंपारण"
+
+#, fuzzy
+#~| msgid "Munger "
+#~ msgid "Munger"
+#~ msgstr "मुंगेर"
+
+#, fuzzy
+#~| msgid "Bhagalpur "
+#~ msgid "Bhagalpur"
+#~ msgstr "भागलपुर"
+
+#, fuzzy
+#~| msgid "Bhabua "
+#~ msgid "Bhabua"
+#~ msgstr "भभुआ"
+
+#, fuzzy
+#~| msgid "Mukhyamantri Kalaazar Rahat Yojana. "
+#~ msgid "Mukhyamantri Kalaazar Rahat Yojana."
+#~ msgstr "मुख्मंत्री कालाजार राहत योजना"
+
+#, fuzzy
+#~| msgid " Mukhyamantri Chikitsa Sahayata Yojana "
+#~ msgid " Mukhyamantri Chikitsa Sahayata Yojana"
+#~ msgstr "मुख्मंत्री चिकत्स सहयाता योजना"
+
+#, fuzzy
+#~| msgid " Janni Avan Bal Surcha Yojana "
+#~ msgid " Janni Avan Bal Surcha Yojana"
+#~ msgstr "जननी अवान बाल सुरचा योजना"
+
+#, fuzzy
+#~| msgid " Parivar Kalyan Karyakram Yojana "
+#~ msgid " Parivar Kalyan Karyakram Yojana"
+#~ msgstr "परिवार कल्याण कार्यक्रम"
+
+#, fuzzy
+#~| msgid "Adhyapan Niyantran Yojana  "
+#~ msgid "Adhyapan Niyantran Yojana "
+#~ msgstr "अंधापन नियंत्रण कार्यक्रम"
+
+#, fuzzy
+#~| msgid "Rashtriya Kust Unmulan Karyakram "
+#~ msgid "Rashtriya Kust Unmulan Karyakram"
+#~ msgstr "राष्ट्रीय कुष्ठ उन्मूलन कार्यक्रम"
